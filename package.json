@@ -1,0 +1,27 @@
+{
+  "author": "user",
+  "bugs": {},
+  "gx": {
+    "dvcsimport": "github.com/victorbjelkholm/ipfs-simple"
+  },
+  "gxDependencies": [
+    {
+      "hash": "QmNUKMfTHQQpEwE8bUdv5qmKC3ymdW7zw82LFS8D6MQXmu",
+      "name": "go-ipfs",
+      "version": "0.4.11"
+    },
+    {
+      "author": "whyrusleeping",
+      "hash": "QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP",
+      "name": "goprocess",
+      "version": "1.0.0"
+    }
+  ],
+  "gxVersion": "0.11.0",
+  "language": "go",
+  "license": "",
+  "name": "ipfs-simple",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "0.0.0"
+}
+
